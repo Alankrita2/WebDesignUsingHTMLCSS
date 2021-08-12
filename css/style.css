@@ -1,0 +1,112 @@
+/* header formatting section begins here */
+.header-container{
+    background-color: rgb(168, 216, 112);
+    height: 15vh;
+    border-bottom: 2px solid rgb(105, 28, 71);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .company-logo{
+    height: 12vh;
+    }
+    
+    .nav-bar{
+    margin-left: 10vw;
+    }
+    
+    .nav-bar ul{
+    list-style-type: none;
+    }
+    
+    .nav-bar ul li{
+    display: inline;
+    padding: 1em;
+    }
+    
+    .nav-bar ul li a{
+    text-decoration: none;
+    color:rgb(38, 11, 192);
+    }
+    
+    .nav-bar ul li a:hover{
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 0.5em;
+    }
+    
+    button{
+    background: rgb(190, 106, 46);
+    color: whitesmoke;
+    border: 2px solid;
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+    }
+    
+    button:hover{
+    background:whitesmoke;
+    color: rgb(190, 106, 46);
+    border: 2px solid rgb(190, 106, 46);
+    padding: 1em;
+    width: 10vw;
+    border-radius: 10px;
+    }
+    /*header formatting section ends here */
+    /*main section formatting starts here*/
+    .hero-unit-container{
+    background-image: url('../images/image1.jpg');
+    height:70vh;
+    text-align: center;
+    }
+    .hero-unit-container h1{
+    margin: 0em;
+    padding-top: 28vh;
+    font-size: 5em;
+    }
+    .paper-layout-section{
+    background-color: mistyrose;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    }
+    
+    .paper-layout-section h2{
+    text-align: center;
+    }
+    
+    .paper-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    }
+    
+    .card img{
+    height: 35vh;
+    width:20vw;
+    }
+    
+    .card{
+    background-color: whitesmoke;
+    text-align: center;
+    height: 50vh;
+    width:25vw;
+    padding: 0.5em;
+    box-shadow: 5px 5px 30px rgb(163, 155, 155); /*Paper layout projection*/
+    }
+    footer{
+    background-color: rgb(168, 216, 112);
+    height: 15vh;
+    text-align: center;
+    border: 1px solid rgb(190, 106, 46);
+    margin: 0;
+    }
+    
+    footer h2{
+    padding-top: 1em;
+    }
+    
+    
